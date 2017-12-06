@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Meching</string>
+
+    <string name="topic1">껌, 젤리를 씹으면\n정말 집중력이 강화될까?</string>
+    <string name="topic2">무릎 관절의 부담을 줄여주는\n `레터럴 런지` 운동</string>
+    <string name="topic3">단 5분만 누르면 ‘수족냉증`\n해결되는 지압법</string>
+
+
+
+
+
+
+    //*입*//
+    <string name="a0">입 안에 이물감이 느껴집니까?</string>
+    <string name="a1">입 안에 통증이 느껴집니까?</string>
+    <string name="a2">음식을 삼키기 어렵습니까?</string>
+
+    //*간,담도*//
+    <string name="b0">피곤합니까?</string>
+    <string name="b1">배가 아픕니까?</string>
+    <string name="b2">피부 색이 누렇게 뜹니까?</string>
+
+    //*귀 질환*//
+    <string name="c0">귀가 잘 들리지 않나요?</string>
+    <string name="c1">왼쪽 귀와 오른쪽 귀에 들리는 소리 크기가 다른가요?</string>
+
+    //*팔,다리*//
+    <string name="d0">관절에 통증이 있나요?</string>
+    <string name="d1">골절이 일어난 빈도가 잦나요?</string>
+
+    //*순환 기계*//
+    <string name="e0">두통이 있나요?</string>
+    <string name="e1">구토를 하나요?</string>
+
+
+
+    //*안과질환*//
+    <string name="g0">시력이 나빠졌나요?</string>
+    <string name="g1">눈에 통증이 오나요?</string>
+
+    //*호흡기계*//
+    <string name="h0">기침을 하나요?</string>
+    <string name="h1">콧물이 나오나요?</string>
+    <string name="h2">열이 나요?</string>
+    <string name="h3">숨쉬기가 힘든가요?</string>
+
+    //*소화기계*//
+    <string name="i0">배가 아픈가요?</string>
+    <string name="i1">변비가 있나요?</string>
+    <string name="i2">구토를 하나요?</string>
+</resources>

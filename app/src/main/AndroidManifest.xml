@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.com.a1team_meching">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mechingicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mechingicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".startsurveyPopup"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".firstsurvey" />
+        <activity android:name=".survey" />
+        <activity android:name=".drug" />
+        <activity android:name=".survey1" />
+        <activity android:name=".survey2" />
+        <activity android:name=".survey3" />
+        <activity android:name=".survey4" />
+        <activity android:name=".survey6" />
+        <activity android:name=".survey7" />
+        <activity android:name=".survey8" />
+        <activity android:name=".result1" />
+        <activity android:name=".result2" />
+        <activity android:name=".result3" />
+        <activity android:name=".result4" />
+        <activity android:name=".result5" />
+        <activity android:name=".result6" />
+        <activity android:name=".result7" />
+        <activity android:name=".result8" />
+        <activity android:name=".result9" />
+        <activity android:name=".result10" />
+        <activity android:name=".result11" />
+        <activity android:name=".result12" />
+        <activity android:name=".result13" />
+        <activity android:name=".result14" />
+        <activity android:name=".result15" />
+        <activity android:name=".result16" />
+        <activity android:name=".result17" />
+        <activity android:name=".result18" />
+        <activity android:name=".result19" />
+        <activity android:name=".result20" />
+        <activity android:name=".result21" />
+        <activity android:name=".h_popup" />
+        <activity android:name=".drug1" />
+        <activity android:name=".drug2" />
+        <activity android:name=".drug3" />
+        <activity android:name=".drug4" />
+        <activity android:name=".drug5" />
+        <activity android:name=".drug6" />
+        <activity android:name=".drug7" />
+        <activity android:name=".drug8" />
+        <activity android:name=".drug9"></activity>
+    </application>
+
+</manifest>

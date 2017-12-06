@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.2"
+            android:background="@drawable/popupimage">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="\n\n\n자가 진단"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#111111"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="자가진단을 시작합니다.\n\n\n예상 진단이므로 증상이 심각하면\n\n\n가까운 병원에서 진단을 받으세요."
+                    android:textColor="#111111"
+                    android:textSize="12dp" />
+            </LinearLayout>
+<!--
+            <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2.8">
+
+                                            <Button
+                                                android:id="@+id/button5"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@null"
+                                                android:onClick="surveycancle"
+                                                android:text="취소"
+                                                android:textColor="@color/maincolor"
+                                                android:textSize="18dp"
+                                                android:textStyle="bold" />
+
+                                            <Button
+                                                android:id="@+id/button4"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:background="@null"
+                                                android:onClick="surveyok"
+                                                android:text="확인"
+                                                android:textColor="@color/maincolor"
+                                                android:textSize="18dp"
+                                                android:textStyle="bold" />
+
+            </LinearLayout>
+            !-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.55"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>
